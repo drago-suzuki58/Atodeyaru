@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "atodeyaru"
+version = "0.1.0"
+description = ""
+authors = ["drago-suzuki58 <dorasuzu58@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.14.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
