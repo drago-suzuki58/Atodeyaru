@@ -31,7 +31,7 @@ python -m pip install git+https://github.com/drago-suzuki58/Atodeyaru
 To use `Atodeyaru`, first create an instance.
 
 ```python
-from atode import Atode
+from atodeyaru import Atode
 
 # Create a basic Atodeyaru instance
 atode = Atode()
@@ -50,7 +50,7 @@ Use the `yaru` method to register the function you want to execute with `Atodeya
 
 ```python
 import time
-from atode import Atode
+from atodeyaru import Atode
 
 atode = Atode()
 

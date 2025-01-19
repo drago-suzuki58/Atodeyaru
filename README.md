@@ -31,7 +31,7 @@ python -m pip install git+https://github.com/drago-suzuki58/Atodeyaru
 `Atodeyaru` を使うには、まずインスタンスを作成します。
 
 ```python
-from atode import Atode
+from atodeyaru import Atode
 
 # 基本的なAtodeyaruインスタンスを作成
 atode = Atode()
@@ -50,7 +50,7 @@ atode_daemon = Atode(daemon=True)
 
 ```python
 import time
-from atode import Atode
+from atodeyaru import Atode
 
 atode = Atode()
 
